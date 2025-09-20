@@ -95,8 +95,8 @@ function SkillCard({ skill, index, isDarkMode }: SkillCardProps) {
           <Image
             src={skill.icon}
             alt={`${skill.name} icon`}
-            layout="fill"
-            objectFit="contain"
+            fill
+            style={{ objectFit: 'contain' }}
           />
         </div>
         <h3 className={`text-xl font-semibold ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{skill.name}</h3>

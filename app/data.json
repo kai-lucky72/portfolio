@@ -1,80 +1,139 @@
 {
   "navbar": {
-    "logo": "B",
+    "logo": "I",
     "navItems": [
-      { "name": "Home", "icon": "Home" },
-      { "name": "Skills", "icon": "CheckCircle" },
-      { "name": "Projects", "icon": "Code" },
-      { "name": "Blog", "icon": "BookOpen" },
-      { "name": "Contact", "icon": "Mail" }
+      {
+        "name": "Home",
+        "icon": "Home"
+      },
+      {
+        "name": "Skills",
+        "icon": "CheckCircle"
+      },
+      {
+        "name": "Ventures",
+        "icon": "Rocket"
+      },
+      {
+        "name": "Projects",
+        "icon": "Code"
+      },
+      {
+        "name": "Blog",
+        "icon": "BookOpen"
+      },
+      {
+        "name": "Contact",
+        "icon": "Mail"
+      }
     ]
   },
   "hero": {
-    "name": "Babou",
-    "greeting": "👋 Hello",
-    "prefix": "I am into",
+    "name": "KAGABO IRENE LUCKY",
+    "greeting": "👋 Hello, I'm",
+    "prefix": "I build",
     "typingText": [
-      "Web Development",
-      "Cyber Security",
-      "Mobile Development",
-      "AI"
+      "Tech Companies",
+      "AI Systems",
+      "Full-Stack Products",
+      "for Africa"
     ],
-    "buttonText": "Get In Touch",
-    "image": "/placeholder.svg?height=320&width=320",
+    "buttonText": "See My Work",
+    "image": "/images/irene.png",
     "techIcons": [
-      { "icon": "FaReact", "color": "text-blue-400", "top": "-10%", "left": "50%", "animate": "spin" },
-      { "icon": "FaJs", "color": "text-yellow-400", "top": "20%", "left": "-10%" },
-      { "icon": "SiTypescript", "color": "text-blue-600", "bottom": "15%", "left": "20%" },
-      { "icon": "FaPython", "color": "text-yellow-600", "bottom": "10%", "right": "15%", "animate": "spin-reverse" },
-      { "icon": "FaNodeJs", "color": "text-green-500", "top": "5%", "right": "0%", "animate": "bounce" }
+      {
+        "icon": "FaReact",
+        "color": "text-blue-400",
+        "top": "-10%",
+        "left": "50%",
+        "animate": "spin"
+      },
+      {
+        "icon": "SiTypescript",
+        "color": "text-blue-600",
+        "top": "20%",
+        "left": "-10%"
+      },
+      {
+        "icon": "FaPython",
+        "color": "text-yellow-500",
+        "bottom": "15%",
+        "left": "20%",
+        "animate": "spin-reverse"
+      },
+      {
+        "icon": "SiTailwindcss",
+        "color": "text-teal-400",
+        "bottom": "10%",
+        "right": "15%"
+      },
+      {
+        "icon": "FaNodeJs",
+        "color": "text-green-500",
+        "top": "5%",
+        "right": "0%",
+        "animate": "bounce"
+      }
     ]
   },
   "about": {
     "title": "About Me",
-    "name": "Manzi Prince Babou",
-    "role": "Full Stack Developer",
-    "bio": "I'm a full-stack web developer with a passion for building beautiful, functional, and scalable web applications. Currently, I'm a student at Rwanda Coding Academy, honing my skills in software development & Embedded Systems. My enthusiasm for learning new technologies and frameworks drives me to constantly expand my skill set. I'm well-versed in various languages & frameworks, and I'm excited about the prospect of delving deeper into these and other emerging technologies.",
-    "image": "/images/me.jpg",
+    "name": "Kagabo Irene Lucky",
+    "role": "CEO & Founder, Nexatech Rwanda | Co-Founder, Echelon",
+    "bio": "I'm an 18-year-old tech entrepreneur and full-stack developer based in Kigali, Rwanda. I founded Nexatech Rwanda — a consumer technology holding company — where I'm building four B2B2C digital platforms: Shoppa (e-commerce discovery), Tugendane (ride-hailing), Hanoserve (service marketplace), and Verline (agri-tech supply chain). I'm also co-founder of Echelon, an Electronic Billing Machine system for business financial compliance. Beyond building companies, I'm deeply invested in AI system architecture, cloud-native engineering, and solving real African market problems at scale. My goal is simple: become one of Africa's leading technology builders — and I'm already on that path.",
+    "image": "/images/irene.png",
     "resumeLink": "#resume",
     "socials": [
-      { "platform": "GitHub", "url": "https://github.com/princebabou", "icon": "FaGithub" },
-      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/manzi-babou-1b661b294/", "icon": "FaLinkedin" },
-      { "platform": "Twitter", "url": "https://x.com/manzi_prince00", "icon": "FaTwitter" }
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/kai-lucky72",
+        "icon": "FaGithub"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lucky-kagabo-2b96b5344",
+        "icon": "FaLinkedin"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/K_AI_Lucky",
+        "icon": "FaTwitter"
+      }
     ]
   },
   "services": {
-    "title": "Services",
-    "description": "Since I entered this field, I've honed my skills in problem-solving and adapting to various tech stacks. Here are the key services I offer:",
+    "title": "What I Do",
+    "description": "From founding and building companies to engineering AI systems and cloud-native platforms — here is where I create real value:",
     "list": [
       {
-        "title": "Hardworking and goal-oriented",
-        "description": "I am hardworking, committed and I like setting goals and tasks to be done so as to simplify work.",
-        "icon": "Briefcase"
+        "title": "Product & Startup Building",
+        "description": "I conceptualize, architect, and launch digital products from zero to market. Currently running four live products under Nexatech Rwanda and co-founding Echelon — all built from the ground up.",
+        "icon": "Rocket"
       },
       {
-        "title": "Backend Development",
-        "description": "Proficient in building scalable and efficient backend services using Node.js, Python, and PHP. Experience with Spring Boot and Docker for containerization.",
-        "icon": "Terminal"
-      },
-      {
-        "title": "Frontend Development",
-        "description": "Expert in creating responsive and visually appealing frontend designs using Next.js, React, Angular, and Vue. Strong understanding of UI/UX design principles.",
+        "title": "Full-Stack Development",
+        "description": "End-to-end engineering using React, TypeScript, Tailwind, Vite, FastAPI, Node.js, and PostgreSQL. I build clean, scalable codebases that are production-ready and maintainable.",
         "icon": "Code"
       },
       {
-        "title": "Cybersecurity",
-        "description": "Strong background in cybersecurity, focusing on protecting applications and systems from vulnerabilities. Experienced with various security tools and practices.",
-        "icon": "Shield"
-      },
-      {
-        "title": "Mobile Development",
-        "description": "Skilled in developing mobile applications using Flutter and React Native. Focused on delivering smooth and user-friendly mobile experiences.",
-        "icon": "Smartphone"
-      },
-      {
-        "title": "AI & ML",
-        "description": "Hands-on experience in AI and ML, working with Python, IoT, and Raspberry Pi. Developed and deployed machine learning models for various applications.",
+        "title": "AI System Architecture",
+        "description": "Designing intelligent, continuously learning AI systems using RAG pipelines, vector databases (Weaviate), Gemini API, and multi-LLM orchestration. I build systems that evolve — not just respond.",
         "icon": "Cpu"
+      },
+      {
+        "title": "Cloud-Native Engineering",
+        "description": "Deploying and managing infrastructure on Oracle Cloud, Firebase, and other cloud platforms. Experienced with Docker, CI/CD workflows, GitHub Actions, and GitLab mirroring for production environments.",
+        "icon": "Server"
+      },
+      {
+        "title": "API & Fintech Integration",
+        "description": "Successfully integrated MTN MoMo API across multiple B2B2C platforms, handling payment flows, transaction commissions, and mobile money compliance for the East African market.",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "Automation & Workflow Engineering",
+        "description": "Building intelligent automation workflows using n8n, Gemini API, and platform APIs (LinkedIn, Google Sheets). I eliminate manual work with smart, self-running pipelines.",
+        "icon": "Zap"
       }
     ]
   },
@@ -86,14 +145,42 @@
         "label": "Frontend",
         "icon": "Code",
         "skills": [
-          { "name": "NextJS", "level": 90, "color": "from-blue-500 to-teal-500", "icon": "/images/next.png" },
-          { "name": "Bootstrap", "level": 95, "color": "from-purple-500 to-indigo-500", "icon": "/images/boot.jpg" },
-          { "name": "JavaScript", "level": 85, "color": "from-yellow-400 to-orange-500", "icon": "/images/JS.png" },
-          { "name": "Angular", "level": 80, "color": "from-red-500 to-pink-500", "icon": "/images/angular.png" },
-          { "name": "Vue", "level": 80, "color": "from-green-500 to-teal-500", "icon": "/images/vue.png" },
-          { "name": "React", "level": 90, "color": "from-blue-400 to-indigo-500", "icon": "/images/react.png" },
-          { "name": "TypeScript", "level": 85, "color": "from-blue-600 to-indigo-600", "icon": "/images/type.png" },
-          { "name": "UI/UX Design", "level": 80, "color": "from-pink-500 to-purple-500", "icon": "/images/uix.png" }
+          {
+            "name": "React",
+            "level": 90,
+            "color": "from-blue-400 to-indigo-500",
+            "icon": "/images/react.png"
+          },
+          {
+            "name": "TypeScript",
+            "level": 88,
+            "color": "from-blue-600 to-indigo-600",
+            "icon": "/images/type.png"
+          },
+          {
+            "name": "Tailwind CSS",
+            "level": 92,
+            "color": "from-teal-400 to-cyan-500",
+            "icon": "/images/tailwind.png"
+          },
+          {
+            "name": "Next.js",
+            "level": 82,
+            "color": "from-gray-600 to-gray-900",
+            "icon": "/images/next.png"
+          },
+          {
+            "name": "Vite",
+            "level": 85,
+            "color": "from-purple-500 to-indigo-500",
+            "icon": "/images/vite.png"
+          },
+          {
+            "name": "shadcn/ui",
+            "level": 85,
+            "color": "from-zinc-600 to-slate-700",
+            "icon": "/images/shadcn.png"
+          }
         ]
       },
       {
@@ -101,11 +188,61 @@
         "label": "Backend",
         "icon": "Server",
         "skills": [
-          { "name": "Node.js", "level": 90, "color": "from-green-500 to-teal-500", "icon": "/images/node.png" },
-          { "name": "Python", "level": 90, "color": "from-blue-500 to-indigo-500", "icon": "/images/py.jpg" },
-          { "name": "PHP", "level": 90, "color": "from-indigo-500 to-purple-500", "icon": "/images/php.png" },
-          { "name": "Spring Boot", "level": 75, "color": "from-green-400 to-teal-500", "icon": "/images/spring.jpg" },
-          { "name": "Docker", "level": 78, "color": "from-blue-400 to-indigo-500", "icon": "/images/docker.png" }
+          {
+            "name": "Python",
+            "level": 88,
+            "color": "from-yellow-500 to-blue-600",
+            "icon": "/images/py.jpg"
+          },
+          {
+            "name": "FastAPI",
+            "level": 85,
+            "color": "from-teal-500 to-green-600",
+            "icon": "/images/fastapi.png"
+          },
+          {
+            "name": "Node.js",
+            "level": 82,
+            "color": "from-green-500 to-teal-500",
+            "icon": "/images/node.png"
+          },
+          {
+            "name": "Docker",
+            "level": 75,
+            "color": "from-blue-400 to-indigo-500",
+            "icon": "/images/docker.png"
+          }
+        ]
+      },
+      {
+        "id": "ai",
+        "label": "AI & Data",
+        "icon": "Cpu",
+        "skills": [
+          {
+            "name": "Gemini API",
+            "level": 88,
+            "color": "from-blue-500 to-purple-600",
+            "icon": "/images/gemini.png"
+          },
+          {
+            "name": "RAG Systems",
+            "level": 82,
+            "color": "from-orange-500 to-red-500",
+            "icon": "/images/rag.png"
+          },
+          {
+            "name": "Weaviate",
+            "level": 78,
+            "color": "from-green-500 to-teal-500",
+            "icon": "/images/weaviate.png"
+          },
+          {
+            "name": "LLM Orchestration",
+            "level": 80,
+            "color": "from-purple-600 to-pink-500",
+            "icon": "/images/llm.png"
+          }
         ]
       },
       {
@@ -113,9 +250,61 @@
         "label": "Databases",
         "icon": "Database",
         "skills": [
-          { "name": "SQL", "level": 85, "color": "from-orange-500 to-red-500", "icon": "/images/sql.png" },
-          { "name": "PostgreSQL", "level": 80, "color": "from-blue-500 to-indigo-500", "icon": "/images/postgres.png" },
-          { "name": "MongoDB", "level": 90, "color": "from-green-500 to-teal-500", "icon": "/images/mongo.png" }
+          {
+            "name": "PostgreSQL",
+            "level": 82,
+            "color": "from-blue-500 to-indigo-500",
+            "icon": "/images/postgres.png"
+          },
+          {
+            "name": "MongoDB",
+            "level": 80,
+            "color": "from-green-500 to-teal-500",
+            "icon": "/images/mongo.png"
+          },
+          {
+            "name": "Firebase",
+            "level": 85,
+            "color": "from-yellow-500 to-orange-500",
+            "icon": "/images/firebase.png"
+          },
+          {
+            "name": "Weaviate (Vector)",
+            "level": 78,
+            "color": "from-teal-400 to-green-600",
+            "icon": "/images/weaviate.png"
+          }
+        ]
+      },
+      {
+        "id": "devops",
+        "label": "Cloud & DevOps",
+        "icon": "Server",
+        "skills": [
+          {
+            "name": "Oracle Cloud",
+            "level": 80,
+            "color": "from-red-500 to-orange-500",
+            "icon": "/images/oracle.png"
+          },
+          {
+            "name": "GitHub Actions",
+            "level": 78,
+            "color": "from-gray-600 to-gray-900",
+            "icon": "/images/github.png"
+          },
+          {
+            "name": "n8n Automation",
+            "level": 85,
+            "color": "from-pink-500 to-red-500",
+            "icon": "/images/n8n.png"
+          },
+          {
+            "name": "GitLab CI/CD",
+            "level": 75,
+            "color": "from-orange-600 to-red-500",
+            "icon": "/images/gitlab.png"
+          }
         ]
       },
       {
@@ -123,50 +312,126 @@
         "label": "Mobile",
         "icon": "Smartphone",
         "skills": [
-          { "name": "React Native", "level": 80, "color": "from-blue-500 to-indigo-500", "icon": "/images/react.png" },
-          { "name": "Flutter", "level": 70, "color": "from-blue-400 to-teal-500", "icon": "/images/flutter.png" }
-        ]
-      },
-      {
-        "id": "others",
-        "label": "Others",
-        "icon": "Cpu",
-        "skills": [
-          { "name": "Firebase", "level": 85, "color": "from-yellow-500 to-orange-500", "icon": "/images/firebase.png" },
-          { "name": "C++", "level": 85, "color": "from-blue-600 to-indigo-600", "icon": "/images/C++.png" },
-          { "name": "Cybersecurity", "level": 90, "color": "from-red-500 to-pink-500", "icon": "/images/cyber.png" },
-          { "name": "Networking", "level": 85, "color": "from-green-500 to-teal-500", "icon": "/images/network.png" }
+          {
+            "name": "React Native",
+            "level": 75,
+            "color": "from-blue-500 to-indigo-500",
+            "icon": "/images/react.png"
+          },
+          {
+            "name": "Flutter",
+            "level": 70,
+            "color": "from-blue-400 to-teal-500",
+            "icon": "/images/flutter.png"
+          },
+          {
+            "name": "PWA",
+            "level": 80,
+            "color": "from-purple-500 to-indigo-600",
+            "icon": "/images/pwa.png"
+          }
         ]
       }
     ]
   },
+  "ventures": {
+    "title": "My Ventures",
+    "description": "I don't just build features — I build companies. Here are the ventures I've founded or co-founded:",
+    "list": [
+      {
+        "name": "Nexatech Rwanda",
+        "tagline": "Consumer Technology Holding Company",
+        "description": "Founded Nexatech Rwanda as a B2B2C tech holding company operating four digital platforms across e-commerce, mobility, services, and agriculture. Building the infrastructure layer for Rwanda's digital economy.",
+        "role": "CEO & Founder",
+        "status": "Building",
+        "products": [
+          "Shoppa",
+          "Tugendane",
+          "Hanoserve",
+          "Verline"
+        ],
+        "icon": "Building",
+        "color": "from-blue-600 to-indigo-600",
+        "link": "#nexatech"
+      },
+      {
+        "name": "Echelon",
+        "tagline": "Electronic Billing Machine & Business Management",
+        "description": "Co-founded Echelon, an EBM (Electronic Billing Machine) system that handles business financial compliance, billing, and management — making formal business operations accessible to Rwandan enterprises.",
+        "role": "Co-Founder",
+        "status": "Active",
+        "products": [],
+        "icon": "/images/echelon.png",
+        "color": "from-emerald-600 to-teal-600",
+        "link": "#echelon"
+      }
+    ],
+    "products": [
+      {
+        "name": "Shoppa",
+        "parent": "Nexatech Rwanda",
+        "description": "A local e-commerce discovery platform connecting Rwandan consumers to nearby businesses and products. Think Google Shopping, built for the Kigali market.",
+        "icon": "/images/shoppa.png",
+        "color": "from-orange-500 to-yellow-500"
+      },
+      {
+        "name": "Tugendane",
+        "parent": "Nexatech Rwanda",
+        "description": "A ride-hailing platform for Rwanda. Uber-style mobility, designed for the East African road network and priced for local users.",
+        "icon": "/images/tugendane.png",
+        "color": "from-blue-500 to-cyan-500"
+      },
+      {
+        "name": "Hanoserve",
+        "parent": "Nexatech Rwanda",
+        "description": "A marketplace for blue-collar and hands-on services — connecting skilled workers (plumbers, electricians, cleaners, etc.) with households and businesses.",
+        "icon": "Wrench",
+        "color": "from-amber-500 to-orange-600"
+      },
+      {
+        "name": "Verline",
+        "parent": "Nexatech Rwanda",
+        "description": "An agri-tech supply chain platform streamlining the connection between farmers, distributors, and buyers — tackling food supply inefficiencies in Rwanda.",
+        "icon": "Leaf",
+        "color": "from-green-500 to-emerald-600"
+      }
+    ]
+  },
   "roadmap": {
-    "title": "Educational Journey",
-    "description": "My educational path has been a journey of continuous learning and growth, shaping my skills and passion for technology.",
+    "title": "My Journey",
+    "description": "From curious student to company founder — the path that shaped who I am and what I'm building.",
     "education": [
-      { 
-        "year": "2014", 
-        "title": "Primary Education", 
-        "institution": "Kigali Harvest School", 
-        "achievement": "Honor Roll Student",
+      {
+        "year": "2020",
+        "title": "Secondary Education",
+        "institution": "Kigali, Rwanda",
+        "achievement": "Sciences & Technology Track",
         "icon": "Book",
-        "description": "Developed a strong foundation in core subjects and discovered a passion for learning."
+        "description": "Developed a strong foundation in mathematics, sciences, and logic. First exposure to programming sparked what became an obsession with building systems."
       },
-      { 
-        "year": "2019", 
-        "title": "O' level Education", 
-        "institution": "GSO Butare", 
-        "achievement": "Top 5% of Class",
-        "icon": "Award",
-        "description": "Excelled in sciences and mathematics, laying the groundwork for future tech studies."
-      },
-      { 
-        "year": "2022", 
-        "title": "A' Level Education", 
-        "institution": "Rwanda Coding Academy", 
-        "achievement": "Valedictorian",
+      {
+        "year": "2022",
+        "title": "Rwanda Coding Academy",
+        "institution": "Rwanda Coding Academy",
+        "achievement": "Software Development & Embedded Systems",
         "icon": "GraduationCap",
-        "description": "Specialized in software development and embedded systems, leading several innovative projects."
+        "description": "Specialized in software development, embedded systems, and cloud engineering. Built the technical depth that powers every product I create today."
+      },
+      {
+        "year": "2023",
+        "title": "Co-Founded Echelon",
+        "institution": "Kigali, Rwanda",
+        "achievement": "Co-Founder",
+        "icon": "Rocket",
+        "description": "Co-founded Echelon — an EBM (Electronic Billing Machine) business management platform. First company built, first lesson in scaling technical products in a regulated industry."
+      },
+      {
+        "year": "2024",
+        "title": "Founded Nexatech Rwanda",
+        "institution": "Kigali, Rwanda",
+        "achievement": "CEO & Founder",
+        "icon": "Award",
+        "description": "Founded Nexatech Rwanda with a vision to build the consumer digital infrastructure for East Africa. Four products under one roof: Shoppa, Tugendane, Hanoserve, and Verline — all in active development."
       }
     ]
   },
@@ -174,133 +439,180 @@
     "title": "Featured Projects",
     "list": [
       {
-        "name": "Plantiify",
-        "description": "Identify Plants using AI",
-        "link": "https://plantiify.vercel.app/",
-        "image": "/images/plantiify.png",
-        "github": "https://github.com/princebabou/Plantify"
+        "name": "Echelon",
+        "description": "An Electronic Billing Machine (EBM) system that handles business financial compliance, billing, and management for Rwandan enterprises.",
+        "link": "#",
+        "image": "/images/echelon.png",
+        "github": "#",
+        "tags": [
+          "Fintech",
+          "EBM",
+          "Compliance",
+          "Business"
+        ]
       },
       {
-        "name": "Scribber",
-        "description": "Transcribe fast and accurately",
-        "link": "https://scribber.vercel.app",
-        "image": "/images/scribber.png",
-        "github": "https://github.com/princebabou/scriber"
+        "name": "Tugendane",
+        "description": "A localized ride-hailing platform designed for the East African road network, focusing on affordability and reliability.",
+        "link": "#",
+        "image": "/images/tugendane.png",
+        "github": "#",
+        "tags": [
+          "Mobility",
+          "React Native",
+          "Geolocation",
+          "MTN MoMo"
+        ]
       },
       {
-        "name": "Steganography tool",
-        "description": "Seamlessly hide messages in images",
-        "link": "https://github.com/princebabou/steganography-tool",
-        "image": "/images/steg.jpg",
-        "github": "https://github.com/princebabou/steganography-tool"
+        "name": "Shoppa",
+        "description": "E-commerce discovery platform connecting local businesses with consumers, optimized for the Kigali market dynamics.",
+        "link": "#",
+        "image": "/images/shoppa.png",
+        "github": "#",
+        "tags": [
+          "E-commerce",
+          "Marketplace",
+          "Discovery"
+        ]
       },
       {
-        "name": "Nutflix",
-        "description": "Keep track of trending movies and TV series",
-        "link": "https://nutflixx.vercel.app/",
-        "image": "/images/nutflix.png",
-        "github": "https://github.com/princebabou/Nutflix"
+        "name": "Bwenge",
+        "description": "A scalable, self-evolving AI knowledge system built with FastAPI and vector databases. Designed for complex data orchestration.",
+        "link": "#",
+        "image": "/images/bwenge.png",
+        "github": "#",
+        "tags": [
+          "AI",
+          "Python",
+          "FastAPI",
+          "Vector DB"
+        ]
       }
     ]
   },
   "blog": {
     "title": "Blog",
-    "description": "Explore in-depth articles, tutorials, and thought leadership on cybersecurity, software engineering, and the latest tech trends.",
+    "description": "Thoughts on building tech companies in Africa, AI system design, founder lessons, and the future of East African digital infrastructure.",
     "cards": [
       {
-        "icon": "Shield",
-        "title": "Cybersecurity",
-        "description": "Dive into the world of cybersecurity, from threat analysis to secure coding practices and vulnerability management.",
+        "icon": "Rocket",
+        "title": "Building in Africa",
+        "description": "Real talk on founding tech companies in Rwanda — from market research to MTN MoMo integrations, cloud costs, and why Africa needs builders more than importers.",
+        "color": "text-orange-600",
+        "darkColor": "text-orange-300"
+      },
+      {
+        "icon": "Cpu",
+        "title": "AI System Design",
+        "description": "Deep dives into RAG pipelines, vector database architecture, multi-LLM orchestration, and building AI systems that actually learn — not just respond.",
         "color": "text-blue-600",
         "darkColor": "text-blue-300"
       },
       {
         "icon": "Code",
-        "title": "Software Engineering",
-        "description": "Master the art of building robust, scalable, and maintainable software systems with best practices and modern tools.",
+        "title": "Full-Stack Engineering",
+        "description": "Practical engineering: TypeScript patterns, FastAPI architecture, cloud-native deployments, and the decisions that make or break a production codebase.",
         "color": "text-green-600",
         "darkColor": "text-green-300"
       },
       {
-        "icon": "Cpu",
-        "title": "Tech Insights",
-        "description": "Stay ahead with cutting-edge insights into emerging technologies, industry trends, and innovative solutions.",
+        "icon": "Lightbulb",
+        "title": "Founder Mindset",
+        "description": "How I think about product, competition, and scaling — as an 18-year-old CEO building pan-African infrastructure from Kigali.",
         "color": "text-purple-600",
         "darkColor": "text-purple-300"
-      },
-      {
-        "icon": "Rocket",
-        "title": "Career Growth",
-        "description": "Learn how to advance your career in tech with tips on certifications, interviews, and professional development.",
-        "color": "text-orange-600",
-        "darkColor": "text-orange-300"
       }
     ],
-    "link": "https://quillblog.vercel.app/",
-    "buttonText": "Explore My Blog"
+    "link": "#blog",
+    "buttonText": "Read My Blog"
   },
   "testimonials": {
     "title": "What People Say",
-    "description": "Hear from some of the amazing people I've had the pleasure of working with.",
+    "description": "From collaborators and mentors who've seen the work up close.",
     "list": [
       {
-        "name": "John Clark",
-        "text": "Babou is an exceptional developer. Their work exceeded our expectations!",
-        "role": "CEO, Tech Corp",
-        "image": "/images/two.jpg"
+        "name": "Tech Collaborator",
+        "text": "Irene doesn't just write code — she architects systems. Watching her go from concept to working product in weeks is something else entirely.",
+        "role": "Engineering Partner, Kigali",
+        "image": "/images/t1.jpg"
       },
       {
-        "name": "Jane Smith",
-        "text": "Working with Babou was a pleasure. They delivered high-quality work on time.",
-        "role": "Project Manager, Design Studio",
-        "image": "/images/one.jpg"
+        "name": "Co-Founder, Echelon",
+        "text": "She brings both the technical depth and the business clarity most founders never manage to combine. Echelon wouldn't exist without her.",
+        "role": "Co-Founder, Echelon",
+        "image": "/images/t2.jpg"
       },
       {
-        "name": "Alex Johnson",
-        "text": "Babou's attention to detail and problem-solving skills are unmatched.",
-        "role": "CTO, Startup Inc.",
-        "image": "/images/three.jpg"
+        "name": "Industry Mentor",
+        "text": "Rare to see someone this young already operating at a company-building level. The vision is pan-African, and the execution is catching up fast.",
+        "role": "Tech Mentor, Rwanda",
+        "image": "/images/t3.jpg"
       }
     ]
   },
   "contact": {
-    "title": "Get in Touch",
-    "description": "Have a question or want to work together? Feel free to reach out!",
+    "title": "Let's Build Something",
+    "description": "Open to partnerships, investment conversations, collaboration on African tech problems, and the right job opportunities. Reach out.",
     "info": [
-      { "icon": "MapPin", "title": "Location", "content": "KG 17 Ave, Kigali, Rwanda" },
-      { "icon": "Mail", "title": "Email", "content": "baboumanzi69@gmail.com" },
-      { "icon": "Phone", "title": "Phone", "content": "+250 796 103 589" }
+      {
+        "icon": "MapPin",
+        "title": "Location",
+        "content": "Kigali, Rwanda"
+      },
+      {
+        "icon": "Mail",
+        "title": "Email",
+        "content": "irene@nexatech.rw"
+      },
+      {
+        "icon": "Globe",
+        "title": "Company",
+        "content": "nexatech.rw"
+      }
     ],
     "mapUrl": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7396.7264409682575!2d30.189228675944673!3d-1.9676040933093157!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srw!4v1725372238118!5m2!1sen!2srw",
     "emailjs": {
-      "serviceId": "service_72p0uwq",
-      "templateId": "template_7315bje",
-      "publicKey": "cXcKdm2srY9_qxGvs"
+      "serviceId": "YOUR_SERVICE_ID",
+      "templateId": "YOUR_TEMPLATE_ID",
+      "publicKey": "YOUR_PUBLIC_KEY"
     }
   },
   "footer": {
-    "copyright": "© 2024 Babou. All rights reserved.",
+    "copyright": "© 2025 Kagabo Irene Lucky. All rights reserved.",
     "socials": [
-      { "platform": "GitHub", "url": "https://github.com/princebabou", "icon": "Github" },
-      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/manzi-babou-1b661b294/", "icon": "Linkedin" },
-      { "platform": "Mail", "url": "mailto:baboumanzi69@gmail.com", "icon": "Mail" },
-      { "platform": "Phone", "url": "tel:+250796103589", "icon": "Phone" }
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/irenelucky",
+        "icon": "Github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kagabo-irene-lucky/",
+        "icon": "Linkedin"
+      },
+      {
+        "platform": "Mail",
+        "url": "mailto:irene@nexatech.rw",
+        "icon": "Mail"
+      }
     ]
   },
   "seo": {
-    "title": "Babou | Full Stack Developer Portfolio",
-    "description": "Welcome to the portfolio of Manzi Prince Babou, a Full Stack Developer and Cybersecurity enthusiast."
+    "title": "Irene Lucky | Tech Entrepreneur & Full-Stack Developer | Kigali, Rwanda",
+    "description": "CEO & Founder of Nexatech Rwanda. Building Shoppa, Tugendane, Hanoserve, and Verline — Africa's next generation of B2B2C digital platforms. Full-stack developer and AI systems architect."
   },
   "uiLabels": {
     "viewResume": "View Resume",
     "proficiency": "Proficiency",
     "viewProject": "View Project",
+    "viewVenture": "Learn More",
     "sendMessage": "Send Message",
     "sending": "Sending...",
-    "messageSent": "Message sent successfully!",
-    "messageError": "Failed to send message. Please try again later.",
-    "thankYou": "Thank You!",
-    "thankYouSub": "Your message has been sent successfully. I will get back to you soon.",
+    "messageSent": "Message sent!",
+    "messageError": "Failed to send. Please try again.",
+    "thankYou": "Message Received",
+    "thankYouSub": "I'll get back to you shortly. Thanks for reaching out.",
     "sendAnother": "Send Another Message",
     "contactInfo": "Contact Information",
     "name": "Name",
@@ -309,7 +621,7 @@
     "message": "Message",
     "namePlaceholder": "Your Name",
     "emailPlaceholder": "Your Email",
-    "subjectPlaceholder": "Subject",
-    "messagePlaceholder": "Message"
+    "subjectPlaceholder": "What's this about?",
+    "messagePlaceholder": "Tell me what you're building or thinking about..."
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Eye } from 'lucide-react';
+import Image from 'next/image';
 import data from '../data.json';
 
 const { projects } = data;
@@ -44,6 +45,7 @@ interface ProjectCardProps {
     link: string;
     image: string;
     github: string;
+    tags?: string[];
   };
   index: number;
   isDarkMode: boolean;
@@ -53,61 +55,77 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, isDarkMode })
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className={`rounded-lg shadow-lg overflow-hidden ${
+      viewport={{ once: true }}
+      className={`rounded-2xl shadow-lg overflow-hidden ${
         isDarkMode ? 'bg-gray-800' : 'bg-white'
-      } transition-all duration-300 hover:shadow-xl`}
+      } transition-all duration-300 hover:shadow-2xl border ${isDarkMode ? 'border-gray-700' : 'border-gray-100'}`}
     >
-      <div className="relative">
-        <img
-          src={project.image}
-          alt={project.name}
-          className="w-full h-48 object-cover"
-        />
-        <div className={`absolute inset-0 bg-gradient-to-t ${
-          isDarkMode ? 'from-gray-900' : 'from-white'
-        } opacity-0 hover:opacity-90 transition-opacity duration-300 flex items-end justify-center p-4`}>
-          <div className="flex space-x-4">
-            <a
+      <div className="relative h-64 w-full bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-900 flex items-center justify-center p-8">
+        <div className="relative w-full h-full">
+          <Image
+            src={project.image}
+            alt={project.name}
+            fill
+            className="object-contain transition-transform duration-500 hover:scale-110"
+          />
+        </div>
+        <div className={`absolute inset-0 bg-black/60 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center`}>
+          <div className="flex space-x-6">
+            <motion.a
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className={`p-2 rounded-full ${
-                isDarkMode ? 'bg-blue-600 text-white' : 'bg-blue-500 text-white'
-              } hover:bg-opacity-80 transition-colors duration-200`}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="p-3 rounded-full bg-blue-600 text-white shadow-lg"
+              title="Live Demo"
             >
-              <ExternalLink size={20} />
-            </a>
-            <a
+              <ExternalLink size={24} />
+            </motion.a>
+            <motion.a
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className={`p-2 rounded-full ${
-                isDarkMode ? 'bg-gray-700 text-white' : 'bg-gray-200 text-gray-800'
-              } hover:bg-opacity-80 transition-colors duration-200`}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="p-3 rounded-full bg-gray-800 text-white shadow-lg border border-gray-600"
+              title="View Source"
             >
-              <Github size={20} />
-            </a>
+              <Github size={24} />
+            </motion.a>
           </div>
         </div>
       </div>
-      <div className={`p-6 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>
-        <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
-        <p className={`mb-4 ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+      <div className="p-8">
+        <h3 className={`text-2xl font-bold mb-3 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>{project.name}</h3>
+        <p className={`mb-6 leading-relaxed ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
           {project.description}
         </p>
+        
+        {project.tags && (
+          <div className="flex flex-wrap gap-2 mb-6">
+            {project.tags.map((tag, i) => (
+              <span key={i} className={`text-xs px-3 py-1 rounded-full ${
+                isDarkMode ? 'bg-gray-700 text-blue-400' : 'bg-blue-50 text-blue-600'
+              } font-medium`}>
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
         <motion.a
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"
-          className={`inline-flex items-center ${
+          className={`inline-flex items-center font-bold ${
             isDarkMode ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'
           }`}
           whileHover={{ x: 5 }}
-          transition={{ type: 'spring', stiffness: 400, damping: 10 }}
         >
-          <Eye size={16} className="mr-2" />
+          <Eye size={18} className="mr-2" />
           {data.uiLabels.viewProject}
         </motion.a>
       </div>

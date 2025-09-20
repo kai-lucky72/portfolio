@@ -65,7 +65,10 @@ export default function Blog({ isDarkMode }: BlogProps) {
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              {resolveIcon("Code")({ className: "mr-3 text-blue-500", size: 32 })}
+              {(() => {
+                const Icon = resolveIcon("Code")
+                return <Icon className="mr-3 text-blue-500" size={32} />
+              })()}
               {blog.title}
             </motion.h2>
             <motion.p 
