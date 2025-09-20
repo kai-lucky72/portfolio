@@ -1,0 +1,315 @@
+{
+  "navbar": {
+    "logo": "B",
+    "navItems": [
+      { "name": "Home", "icon": "Home" },
+      { "name": "Skills", "icon": "CheckCircle" },
+      { "name": "Projects", "icon": "Code" },
+      { "name": "Blog", "icon": "BookOpen" },
+      { "name": "Contact", "icon": "Mail" }
+    ]
+  },
+  "hero": {
+    "name": "Babou",
+    "greeting": "👋 Hello",
+    "prefix": "I am into",
+    "typingText": [
+      "Web Development",
+      "Cyber Security",
+      "Mobile Development",
+      "AI"
+    ],
+    "buttonText": "Get In Touch",
+    "image": "/placeholder.svg?height=320&width=320",
+    "techIcons": [
+      { "icon": "FaReact", "color": "text-blue-400", "top": "-10%", "left": "50%", "animate": "spin" },
+      { "icon": "FaJs", "color": "text-yellow-400", "top": "20%", "left": "-10%" },
+      { "icon": "SiTypescript", "color": "text-blue-600", "bottom": "15%", "left": "20%" },
+      { "icon": "FaPython", "color": "text-yellow-600", "bottom": "10%", "right": "15%", "animate": "spin-reverse" },
+      { "icon": "FaNodeJs", "color": "text-green-500", "top": "5%", "right": "0%", "animate": "bounce" }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "name": "Manzi Prince Babou",
+    "role": "Full Stack Developer",
+    "bio": "I'm a full-stack web developer with a passion for building beautiful, functional, and scalable web applications. Currently, I'm a student at Rwanda Coding Academy, honing my skills in software development & Embedded Systems. My enthusiasm for learning new technologies and frameworks drives me to constantly expand my skill set. I'm well-versed in various languages & frameworks, and I'm excited about the prospect of delving deeper into these and other emerging technologies.",
+    "image": "/images/me.jpg",
+    "resumeLink": "#resume",
+    "socials": [
+      { "platform": "GitHub", "url": "https://github.com/princebabou", "icon": "FaGithub" },
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/manzi-babou-1b661b294/", "icon": "FaLinkedin" },
+      { "platform": "Twitter", "url": "https://x.com/manzi_prince00", "icon": "FaTwitter" }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "description": "Since I entered this field, I've honed my skills in problem-solving and adapting to various tech stacks. Here are the key services I offer:",
+    "list": [
+      {
+        "title": "Hardworking and goal-oriented",
+        "description": "I am hardworking, committed and I like setting goals and tasks to be done so as to simplify work.",
+        "icon": "Briefcase"
+      },
+      {
+        "title": "Backend Development",
+        "description": "Proficient in building scalable and efficient backend services using Node.js, Python, and PHP. Experience with Spring Boot and Docker for containerization.",
+        "icon": "Terminal"
+      },
+      {
+        "title": "Frontend Development",
+        "description": "Expert in creating responsive and visually appealing frontend designs using Next.js, React, Angular, and Vue. Strong understanding of UI/UX design principles.",
+        "icon": "Code"
+      },
+      {
+        "title": "Cybersecurity",
+        "description": "Strong background in cybersecurity, focusing on protecting applications and systems from vulnerabilities. Experienced with various security tools and practices.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Mobile Development",
+        "description": "Skilled in developing mobile applications using Flutter and React Native. Focused on delivering smooth and user-friendly mobile experiences.",
+        "icon": "Smartphone"
+      },
+      {
+        "title": "AI & ML",
+        "description": "Hands-on experience in AI and ML, working with Python, IoT, and Raspberry Pi. Developed and deployed machine learning models for various applications.",
+        "icon": "Cpu"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "categories": [
+      {
+        "id": "frontend",
+        "label": "Frontend",
+        "icon": "Code",
+        "skills": [
+          { "name": "NextJS", "level": 90, "color": "from-blue-500 to-teal-500", "icon": "/images/next.png" },
+          { "name": "Bootstrap", "level": 95, "color": "from-purple-500 to-indigo-500", "icon": "/images/boot.jpg" },
+          { "name": "JavaScript", "level": 85, "color": "from-yellow-400 to-orange-500", "icon": "/images/JS.png" },
+          { "name": "Angular", "level": 80, "color": "from-red-500 to-pink-500", "icon": "/images/angular.png" },
+          { "name": "Vue", "level": 80, "color": "from-green-500 to-teal-500", "icon": "/images/vue.png" },
+          { "name": "React", "level": 90, "color": "from-blue-400 to-indigo-500", "icon": "/images/react.png" },
+          { "name": "TypeScript", "level": 85, "color": "from-blue-600 to-indigo-600", "icon": "/images/type.png" },
+          { "name": "UI/UX Design", "level": 80, "color": "from-pink-500 to-purple-500", "icon": "/images/uix.png" }
+        ]
+      },
+      {
+        "id": "backend",
+        "label": "Backend",
+        "icon": "Server",
+        "skills": [
+          { "name": "Node.js", "level": 90, "color": "from-green-500 to-teal-500", "icon": "/images/node.png" },
+          { "name": "Python", "level": 90, "color": "from-blue-500 to-indigo-500", "icon": "/images/py.jpg" },
+          { "name": "PHP", "level": 90, "color": "from-indigo-500 to-purple-500", "icon": "/images/php.png" },
+          { "name": "Spring Boot", "level": 75, "color": "from-green-400 to-teal-500", "icon": "/images/spring.jpg" },
+          { "name": "Docker", "level": 78, "color": "from-blue-400 to-indigo-500", "icon": "/images/docker.png" }
+        ]
+      },
+      {
+        "id": "databases",
+        "label": "Databases",
+        "icon": "Database",
+        "skills": [
+          { "name": "SQL", "level": 85, "color": "from-orange-500 to-red-500", "icon": "/images/sql.png" },
+          { "name": "PostgreSQL", "level": 80, "color": "from-blue-500 to-indigo-500", "icon": "/images/postgres.png" },
+          { "name": "MongoDB", "level": 90, "color": "from-green-500 to-teal-500", "icon": "/images/mongo.png" }
+        ]
+      },
+      {
+        "id": "mobile",
+        "label": "Mobile",
+        "icon": "Smartphone",
+        "skills": [
+          { "name": "React Native", "level": 80, "color": "from-blue-500 to-indigo-500", "icon": "/images/react.png" },
+          { "name": "Flutter", "level": 70, "color": "from-blue-400 to-teal-500", "icon": "/images/flutter.png" }
+        ]
+      },
+      {
+        "id": "others",
+        "label": "Others",
+        "icon": "Cpu",
+        "skills": [
+          { "name": "Firebase", "level": 85, "color": "from-yellow-500 to-orange-500", "icon": "/images/firebase.png" },
+          { "name": "C++", "level": 85, "color": "from-blue-600 to-indigo-600", "icon": "/images/C++.png" },
+          { "name": "Cybersecurity", "level": 90, "color": "from-red-500 to-pink-500", "icon": "/images/cyber.png" },
+          { "name": "Networking", "level": 85, "color": "from-green-500 to-teal-500", "icon": "/images/network.png" }
+        ]
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "Educational Journey",
+    "description": "My educational path has been a journey of continuous learning and growth, shaping my skills and passion for technology.",
+    "education": [
+      { 
+        "year": "2014", 
+        "title": "Primary Education", 
+        "institution": "Kigali Harvest School", 
+        "achievement": "Honor Roll Student",
+        "icon": "Book",
+        "description": "Developed a strong foundation in core subjects and discovered a passion for learning."
+      },
+      { 
+        "year": "2019", 
+        "title": "O' level Education", 
+        "institution": "GSO Butare", 
+        "achievement": "Top 5% of Class",
+        "icon": "Award",
+        "description": "Excelled in sciences and mathematics, laying the groundwork for future tech studies."
+      },
+      { 
+        "year": "2022", 
+        "title": "A' Level Education", 
+        "institution": "Rwanda Coding Academy", 
+        "achievement": "Valedictorian",
+        "icon": "GraduationCap",
+        "description": "Specialized in software development and embedded systems, leading several innovative projects."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "list": [
+      {
+        "name": "Plantiify",
+        "description": "Identify Plants using AI",
+        "link": "https://plantiify.vercel.app/",
+        "image": "/images/plantiify.png",
+        "github": "https://github.com/princebabou/Plantify"
+      },
+      {
+        "name": "Scribber",
+        "description": "Transcribe fast and accurately",
+        "link": "https://scribber.vercel.app",
+        "image": "/images/scribber.png",
+        "github": "https://github.com/princebabou/scriber"
+      },
+      {
+        "name": "Steganography tool",
+        "description": "Seamlessly hide messages in images",
+        "link": "https://github.com/princebabou/steganography-tool",
+        "image": "/images/steg.jpg",
+        "github": "https://github.com/princebabou/steganography-tool"
+      },
+      {
+        "name": "Nutflix",
+        "description": "Keep track of trending movies and TV series",
+        "link": "https://nutflixx.vercel.app/",
+        "image": "/images/nutflix.png",
+        "github": "https://github.com/princebabou/Nutflix"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Explore in-depth articles, tutorials, and thought leadership on cybersecurity, software engineering, and the latest tech trends.",
+    "cards": [
+      {
+        "icon": "Shield",
+        "title": "Cybersecurity",
+        "description": "Dive into the world of cybersecurity, from threat analysis to secure coding practices and vulnerability management.",
+        "color": "text-blue-600",
+        "darkColor": "text-blue-300"
+      },
+      {
+        "icon": "Code",
+        "title": "Software Engineering",
+        "description": "Master the art of building robust, scalable, and maintainable software systems with best practices and modern tools.",
+        "color": "text-green-600",
+        "darkColor": "text-green-300"
+      },
+      {
+        "icon": "Cpu",
+        "title": "Tech Insights",
+        "description": "Stay ahead with cutting-edge insights into emerging technologies, industry trends, and innovative solutions.",
+        "color": "text-purple-600",
+        "darkColor": "text-purple-300"
+      },
+      {
+        "icon": "Rocket",
+        "title": "Career Growth",
+        "description": "Learn how to advance your career in tech with tips on certifications, interviews, and professional development.",
+        "color": "text-orange-600",
+        "darkColor": "text-orange-300"
+      }
+    ],
+    "link": "https://quillblog.vercel.app/",
+    "buttonText": "Explore My Blog"
+  },
+  "testimonials": {
+    "title": "What People Say",
+    "description": "Hear from some of the amazing people I've had the pleasure of working with.",
+    "list": [
+      {
+        "name": "John Clark",
+        "text": "Babou is an exceptional developer. Their work exceeded our expectations!",
+        "role": "CEO, Tech Corp",
+        "image": "/images/two.jpg"
+      },
+      {
+        "name": "Jane Smith",
+        "text": "Working with Babou was a pleasure. They delivered high-quality work on time.",
+        "role": "Project Manager, Design Studio",
+        "image": "/images/one.jpg"
+      },
+      {
+        "name": "Alex Johnson",
+        "text": "Babou's attention to detail and problem-solving skills are unmatched.",
+        "role": "CTO, Startup Inc.",
+        "image": "/images/three.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Have a question or want to work together? Feel free to reach out!",
+    "info": [
+      { "icon": "MapPin", "title": "Location", "content": "KG 17 Ave, Kigali, Rwanda" },
+      { "icon": "Mail", "title": "Email", "content": "baboumanzi69@gmail.com" },
+      { "icon": "Phone", "title": "Phone", "content": "+250 796 103 589" }
+    ],
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7396.7264409682575!2d30.189228675944673!3d-1.9676040933093157!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srw!4v1725372238118!5m2!1sen!2srw",
+    "emailjs": {
+      "serviceId": "service_72p0uwq",
+      "templateId": "template_7315bje",
+      "publicKey": "cXcKdm2srY9_qxGvs"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Babou. All rights reserved.",
+    "socials": [
+      { "platform": "GitHub", "url": "https://github.com/princebabou", "icon": "Github" },
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/manzi-babou-1b661b294/", "icon": "Linkedin" },
+      { "platform": "Mail", "url": "mailto:baboumanzi69@gmail.com", "icon": "Mail" },
+      { "platform": "Phone", "url": "tel:+250796103589", "icon": "Phone" }
+    ]
+  },
+  "seo": {
+    "title": "Babou | Full Stack Developer Portfolio",
+    "description": "Welcome to the portfolio of Manzi Prince Babou, a Full Stack Developer and Cybersecurity enthusiast."
+  },
+  "uiLabels": {
+    "viewResume": "View Resume",
+    "proficiency": "Proficiency",
+    "viewProject": "View Project",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "messageSent": "Message sent successfully!",
+    "messageError": "Failed to send message. Please try again later.",
+    "thankYou": "Thank You!",
+    "thankYouSub": "Your message has been sent successfully. I will get back to you soon.",
+    "sendAnother": "Send Another Message",
+    "contactInfo": "Contact Information",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Message"
+  }
+}
