@@ -18,7 +18,16 @@ import {
   Phone, 
   Github, 
   Linkedin,
-  User
+  User,
+  Building,
+  Receipt,
+  ShoppingBag,
+  Car,
+  Wrench,
+  Leaf,
+  CreditCard,
+  Zap,
+  Lightbulb
 } from "lucide-react"
 import { 
   FaReact, 
@@ -53,6 +62,15 @@ const iconMap: Record<string, any> = {
   Github,
   Linkedin,
   User,
+  Building,
+  Receipt,
+  ShoppingBag,
+  Car,
+  Wrench,
+  Leaf,
+  CreditCard,
+  Zap,
+  Lightbulb,
   // FontAwesome Icons
   FaReact,
   FaJs,

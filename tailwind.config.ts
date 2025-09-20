@@ -16,12 +16,7 @@ const config: Config = {
     },
   },
 
-  purge: {
-    options: {
-      safelist: ['w-1\/2'],
-    },
-  },
-  
+  safelist: ['w-1/2'],
   plugins: [],
 };
 export default config;

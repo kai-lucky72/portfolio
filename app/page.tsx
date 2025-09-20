@@ -7,6 +7,7 @@ import About from './components/About';
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 import CVRoadmap from "./components/CVRoadmap";
+import Ventures from "./components/Ventures";
 import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
@@ -46,6 +47,7 @@ export default function Home() {
       <Hero isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
       <Services isDarkMode={isDarkMode} />
+      <Ventures isDarkMode={isDarkMode} />
       <Skills isDarkMode={isDarkMode} />
       <CVRoadmap isDarkMode={isDarkMode} />
       <Projects isDarkMode={isDarkMode}/>
